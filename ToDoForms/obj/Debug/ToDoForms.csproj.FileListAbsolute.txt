@@ -17,7 +17,6 @@
 /Users/lucy/Projects/ToDoForms/ToDoForms/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/lucy/Projects/ToDoForms/ToDoForms/bin/Debug/SQLite-net.dll.mdb
 /Users/lucy/Projects/ToDoForms/ToDoForms/bin/Debug/SQLite-net.xml
-/Users/lucy/Projects/ToDoForms/ToDoForms/obj/Debug/ToDoForms.csprojResolveAssemblyReference.cache
 /Users/lucy/Projects/ToDoForms/ToDoForms/obj/Debug/ToDoForms.csproj.CoreCompileInputs.cache
 /Users/lucy/Projects/ToDoForms/ToDoForms/obj/Debug/ToDoForms.App.xaml.g.cs
 /Users/lucy/Projects/ToDoForms/ToDoForms/obj/Debug/ToDoForms.ToDoFormsPage.xaml.g.cs

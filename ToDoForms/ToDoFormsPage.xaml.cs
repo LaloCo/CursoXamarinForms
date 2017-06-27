@@ -18,7 +18,7 @@ namespace ToDoForms
             else
             {
                 resultadoLabel.Text = "Inicio de sesion exitoso";
-                await Navigation.PushAsync(new NuevoItem());
+                await Navigation.PushAsync(new ListaTareas());
             }
         }
     }
