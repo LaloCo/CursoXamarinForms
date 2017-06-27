@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>ToDoForms</string>
+	<string>ToDoList</string>
 	<key>CFBundleName</key>
-	<string>ToDoForms</string>
+	<string>ToDoList</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.todoforms</string>
+	<string>com.lalorosas.todolist</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

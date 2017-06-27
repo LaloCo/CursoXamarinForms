@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ToDoList.NuevoItemPage">
+
+    <ContentPage.Resources>
+        
+    </ContentPage.Resources>
+    
+	<ContentPage.Content>
+		<Grid Margin="20">
+			<Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+            
+            <Label Text="Nueva tarea"
+            Style="{StaticResource titleLabel}"/>
+            <Label Text="Nombre de la tarea"
+                Style="{StaticResource subtitleLabel}"
+            Grid.Row="1"/>
+			<Entry x:Name="nombreEntry"
+                Grid.Row="2"
+				   Placeholder="Nombre de la tarea"
+				   Grid.ColumnSpan="2"/>
+            <Label Text="Fecha y hora límite" 
+                    Grid.Row="3"
+                Style="{StaticResource subtitleLabel}"/>
+			<DatePicker x:Name="fechaDatePicker"
+                TextColor="{StaticResource accentColor}"
+				 	 	Grid.Row="4"/>
+			<TimePicker x:Name="horaTimePicker"
+                TextColor="{StaticResource accentColor}"
+						Grid.Row="4"
+						Grid.Column="1"/>
+			<Button Text="Guardar"
+                BackgroundColor="{StaticResource accentColor}"
+                TextColor="{StaticResource buttonTextColor}"
+					Grid.Row="5"
+					Grid.ColumnSpan="2"
+					Clicked="Handle_Clicked"/>
+			
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

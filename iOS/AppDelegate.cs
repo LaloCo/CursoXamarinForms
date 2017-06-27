@@ -6,22 +6,22 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ToDoForms.iOS
+namespace ToDoList.iOS
 {
-    [Register("AppDelegate")]
-    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
-    {
-        public override bool FinishedLaunching(UIApplication app, NSDictionary options)
-        {
-            global::Xamarin.Forms.Forms.Init();
+	[Register("AppDelegate")]
+	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+	{
+		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+		{
+			global::Xamarin.Forms.Forms.Init();
 
-			string nombreArchivo = "baseDatos.sqlite";
-            string ruta = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
+			string nombreArchivo = "todo_db.sqlite";
+			string carpeta = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "..", "Library");
+			string rutaArchivo = Path.Combine(carpeta, nombreArchivo);
 
-			string ruta_db = Path.Combine(ruta, nombreArchivo);
-            LoadApplication(new App(ruta_db));
+			LoadApplication(new App(rutaArchivo));
 
-            return base.FinishedLaunching(app, options);
-        }
-    }
+			return base.FinishedLaunching(app, options);
+		}
+	}
 }

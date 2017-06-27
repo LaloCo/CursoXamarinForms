@@ -2,13 +2,19 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_v2/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_v2/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.CardView/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.MediaRouter/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.RecyclerView/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green/library_project_imports/assets</ResolvedAssetDirectory>
@@ -21,12 +27,18 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_v2.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/lucy/Projects/ToDoForms/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.batteries_v2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/lalorosas/Desktop/ToDoList/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

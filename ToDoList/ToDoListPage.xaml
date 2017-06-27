@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:ToDoList"
+	x:Class="ToDoList.ToDoListPage">
+	<StackLayout VerticalOptions="Center"
+				 Margin="20">
+		<Entry x:Name="usuarioEntry"
+			   Placeholder="usuario"/>
+		<Entry x:Name="contraseñaEntry"
+            Placeholder="contraseña"
+			   IsPassword="true"/>
+		<Button Text="iniciar sesión"
+            BackgroundColor="{StaticResource accentColor}"
+            TextColor="{StaticResource buttonTextColor}"
+				Clicked="Handle_Clicked"/>
+		<Label x:Name="resultadoLabel"
+			   HorizontalOptions="Center"/>
+	</StackLayout>
+</ContentPage>
