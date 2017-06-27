@@ -25,5 +25,16 @@ namespace ToDoForms
                 listaTareasListView.ItemsSource = listaTareas;
             }
         }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            using (SQLite.SQLiteConnection conexion = new SQLite.SQLiteConnection(App.RutaBD))
+            {
+                var tareaAcompletar = (sender as MenuItem).CommandParameter as Tarea;
+                tareaAcompletar.Completada = true;
+
+                conexion.Update(tareaAcompletar);
+            }
+        }
     }
 }

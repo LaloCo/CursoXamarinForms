@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{11361699-DFA9-4FAF-AFF6-AA0C08E3FB40}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/ToDoFormsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/ListaTareas.xaml.cs">
     <Files>
-      <File FileName="ToDoForms/ListaTareas.xaml" Line="7" Column="37" />
-      <File FileName="ToDoForms/ListaTareas.xaml.cs" Line="25" Column="63" />
-      <File FileName="ToDoForms/ToDoFormsPage.xaml.cs" Line="21" Column="57" />
+      <File FileName="ToDoForms/ListaTareas.xaml" Line="11" Column="41" />
+      <File FileName="ToDoForms/ListaTareas.xaml.cs" Line="34" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
