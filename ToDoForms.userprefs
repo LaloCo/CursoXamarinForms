@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{11361699-DFA9-4FAF-AFF6-AA0C08E3FB40}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/ListaTareas.xaml">
+    <Files>
+      <File FileName="ToDoForms/ListaTareas.xaml" Line="4" Column="24" />
+      <File FileName="ToDoForms/ListaTareas.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoForms.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.ToDoForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E69D3BB5-62BF-4A3D-93B8-81AAE3A8BE4B" />
+  <MultiItemStartupConfigurations />
+</Properties>
