@@ -11,6 +11,19 @@ namespace ToDoForms
         public ListaTareas()
         {
             InitializeComponent();
+
+            var botonNuevo = new ToolbarItem()
+            {
+                Text = "+"
+            };
+
+            botonNuevo.Clicked += BotonNuevo_Clicked;
+            ToolbarItems.Add(botonNuevo);
+        }
+
+        async void BotonNuevo_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NuevoItem());
         }
 
         protected override void OnAppearing()
@@ -20,7 +33,7 @@ namespace ToDoForms
             using(SQLite.SQLiteConnection conexion = new SQLite.SQLiteConnection(App.RutaBD))
             {
                 List<Tarea> listaTareas;
-                listaTareas = conexion.Table<Tarea>().ToList();
+                listaTareas = conexion.Table<Tarea>().Where(t => t.Completada == false).ToList();
 
                 listaTareasListView.ItemsSource = listaTareas;
             }
@@ -34,6 +47,10 @@ namespace ToDoForms
                 tareaAcompletar.Completada = true;
 
                 conexion.Update(tareaAcompletar);
+
+                List<Tarea> listaTareasFiltrada;
+                listaTareasFiltrada = conexion.Table<Tarea>().Where(t => t.Completada == false).ToList();
+                listaTareasListView.ItemsSource = listaTareasFiltrada;
             }
         }
     }
